@@ -197,7 +197,7 @@ p, b{
     top: 0;
     left: 0;
     width: 80%;
-    height: 60vh;
+    height: 65vh;
     backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
@@ -210,6 +210,20 @@ p, b{
     background-color: #000;
     box-shadow: 0 0 10px #000000bf;
     border-radius: 30px;
+    position: fixed;
+    left: 10%;
+    top: 11%;
+}
+
+.blur{
+    content: 'sd';
+    position: fixed;
+    width: 110vw;
+    height: 200vh;
+    background-color: #a5a4a44d;
+    opacity: 1;
+    z-index: 1;
+    backdrop-filter: blur(50px);
 }
 
 .modal img{

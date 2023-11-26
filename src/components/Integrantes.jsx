@@ -72,17 +72,21 @@ const Integrantes = () => {
       </div>
 
       {modal && (
-        <div className="modal">
-          <div className="close" onClick={() => setModal(false)}>
-            X
+        <>
+          <div className="blur"></div>
+
+          <div className="modal">
+            <div className="close" onClick={() => setModal(false)}>
+              X
+            </div>
+            <img src={integrante.img} alt="" />
+            <div className="info">
+              <h2>{integrante.nombre}</h2>
+              <h3>{integrante.rol}</h3>
+              <p>{integrante.descripcion}</p>
+            </div>
           </div>
-          <img src={integrante.img} alt="" />
-          <div className="info">
-            <h2>{integrante.nombre}</h2>
-            <h3>{integrante.rol}</h3>
-            <p>{integrante.descripcion}</p>
-          </div>
-        </div>
+        </>
       )}
 
       <div className="fila_tarjetas">
