@@ -3,6 +3,9 @@ import '../styles/integrantes.css'; // Asegúrate de tener la ruta correcta al a
 import Navbar from './Navbar'; // Asegúrate de tener la ruta correcta al componente Navbar
 
 const Integrantes = () => {
+  const integrantes = {
+    
+  }
   return (
     <>
       <div className="encabezado">
