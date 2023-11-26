@@ -246,6 +246,7 @@ p, b{
 .blur{
     content: 'sd';
     position: fixed;
+    top: 0;
     width: 110vw;
     height: 200vh;
     background-color: #a5a4a44d;
