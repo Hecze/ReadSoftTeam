@@ -213,7 +213,35 @@ p, b{
     position: fixed;
     left: 10%;
     top: 11%;
+    animation: slideIn .4s ease-in-out;
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes slideIn {
+    0% {
+        top: -60%;
+        opacity: 0;
+    }
+
+    65% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 10%;
+        opacity: 1;
+    }
+}
+
+
+
 
 .blur{
     content: 'sd';
@@ -224,6 +252,8 @@ p, b{
     opacity: 1;
     z-index: 1;
     backdrop-filter: blur(50px);
+    animation: fadeIn .2s ease-in-out;
+
 }
 
 .modal img{
