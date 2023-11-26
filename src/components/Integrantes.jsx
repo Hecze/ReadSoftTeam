@@ -58,7 +58,7 @@ const Integrantes = () => {
     {
       nombre: "Zerrillo Gonzales Hector Manuel",
       rol: "Programador web",
-      img: "/hector.jpg",
+      img: "/hector.jpeg",
       github: "https://github.com/Hecze",
       linkedin: "https://pe.linkedin.com/in/hector-zerrillo-a24b04288",
       descripcion:
