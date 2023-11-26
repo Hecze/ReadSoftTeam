@@ -29,6 +29,24 @@ const Integrantes = () => {
           </div>
 
         </div>
+        <div className="tarjeta">
+
+<div className="front">
+  <img src="kevin.jpeg" alt="Rivera Marcos Kevin Jesus" style={{ objectPosition: 'top' }} />
+  <h3>Rivera Marcos<br />Kevin Jesus</h3>
+</div>
+
+<div className="back">
+  <h3>Rivera Marcos Kevin Jesus</h3>
+  <h4>Revisor y editor</h4>
+  <div className="iconos">
+    <a className="github" href="https://github.com/kriveramarcos"><img src="github.png" alt="GitHub" /></a>
+  </div>
+  <a href="#">Más información</a>
+</div>
+
+</div>
+
 
         <div className="tarjeta">
 
@@ -51,9 +69,7 @@ const Integrantes = () => {
         <div className="tarjeta">
 
           <div className="front">
-            <video autoPlay>
-              <source src="/video2.mp4" type="video/mp4" />
-            </video>
+          <img src="davi.jpg" alt="Facundo Vargas Luis Fernando" style={{ objectPosition: 'right' }} />
             <h3>Guzman Chavez<br />Manuel David</h3>
           </div>
 
@@ -67,6 +83,7 @@ const Integrantes = () => {
           </div>
 
         </div>
+
 
         <div className="tarjeta">
 
@@ -86,23 +103,6 @@ const Integrantes = () => {
 
         </div>
 
-        <div className="tarjeta">
-
-          <div className="front">
-            <img src="kevin.jpeg" alt="Rivera Marcos Kevin Jesus" style={{ objectPosition: 'top' }} />
-            <h3>Rivera Marcos<br />Kevin Jesus</h3>
-          </div>
-
-          <div className="back">
-            <h3>Rivera Marcos Kevin Jesus</h3>
-            <h4>Revisor y editor</h4>
-            <div className="iconos">
-              <a className="github" href="https://github.com/kriveramarcos"><img src="github.png" alt="GitHub" /></a>
-            </div>
-            <a href="#">Más información</a>
-          </div>
-
-        </div>
 
         <div className="tarjeta">
 
