@@ -84,10 +84,12 @@ p, b{
 
 .cualidades > h1{
     text-align: center;
-    background-color: #ddd;
+    background-color: #4fa0d6;
     padding: 120px;
+    margin-left: 10rem;
 }
 
 .cualidades > p{
-    padding: 0 30px;
+    padding: 0 6rem;
+    margin-right: 10rem;
 }

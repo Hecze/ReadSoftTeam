@@ -37,9 +37,14 @@ const Ensayos = () => {
             </div>
             <div className="right-en">
               <h1 className="name">{ensayo.name}</h1>
-              <p className="date">Fecha de publicación: Fecha de publicación: 20/11/2023</p>
+          <hr />
+
+              <p className="date">Fecha de publicación: 20/11/2023</p>
+
               <p className="resumen">{ensayo.description}</p>
+
             </div>
+
           </div>
         ))}
       </div>

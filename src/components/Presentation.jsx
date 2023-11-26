@@ -26,7 +26,7 @@ const AboutUs = () => {
       </div>
 
       <div className="cualidades">
-      <h1>MISIÓN</h1>
+      <h1>VISION</h1>
         <p>Aspiramos a ser una plataforma referente en el análisis académico de videojuegos, reconocida por la calidad de nuestros ensayos y la amplitud de nuestras perspectivas, así mismo, buscamos construir una comunidad diversa de entusiastas de los videojuegos, académicos y profesionales de la ingeniería de software que encuentren en <b>ReadSoft Team</b> un espacio valioso para el intercambio de ideas y conocimientos</p>
       </div>
 

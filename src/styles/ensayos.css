@@ -51,14 +51,14 @@ p, b{
 /*-----------------------------------ENCABEZADO------------------------------------------*/
 .intro{
     padding: 5rem 20rem;
-    padding-bottom: 0;
+    padding-bottom: 5rem;
 
 }
 
 .ensayo{
     display: flex;
     flex-direction: row;
-    padding: 5rem 20rem 5rem;
+    padding: 2rem 20% 4rem 24%;
     gap:5rem;
 
 }
@@ -68,14 +68,19 @@ p, b{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
+}
+
+.right-en h1{
+    padding-bottom: .8rem;
 }
 
 
 
+
 img{
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     object-fit: cover;
     -webkit-box-shadow: 0px 5px 9px 3px rgba(54,54,54,1);
     -moz-box-shadow: 0px 5px 9px 3px rgba(54,54,54,1);
@@ -105,4 +110,8 @@ img{
 .date{
     color: #3a3a3abf;
     font-weight: 700;
+}
+
+.right-en{
+    padding-top: 2rem;
 }
