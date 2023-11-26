@@ -105,11 +105,11 @@ const Integrantes = () => {
               <h3>{integrante.nombre}</h3>
               <h4>{integrante.rol}</h4>
               <div className="iconos">
-                <a className="github" href={integrante.github}>
+                <a className="github" target="_blank" href={integrante.github}>
                   <img src="/github.png" alt="GitHub" />
                 </a>
                 {integrante.linkedin && (
-                  <a className="linkedin" href={integrante.linkedin}>
+                  <a className="linkedin" target="_blank"  href={integrante.linkedin}>
                     <img src="/linkedin.png" alt="LinkedIn" />
                   </a>
                 )}
