@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/ensayos.css'; // Asegúrate de tener la ruta correcta al archivo CSS
 
 const Ensayos = () => {
+  
   return (
     <div>
       <div className="encabezado">
@@ -12,7 +13,6 @@ const Ensayos = () => {
         <div className="ensayo">
           <div className="left-en">
             <img src="https://i.blogs.es/b7859f/super-mario-bros-la-pelicula/1366_2000.jpeg" alt="" />
-            <div className="butt">PREVISUALIZAR</div>
             <div className="butt">LEER</div>
           </div>
           <div className="right-en">

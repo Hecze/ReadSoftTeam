@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Howl } from 'howler'; // Importa Howl desde la biblioteca howler
 import '../styles/nav.css'; // Asegúrate de tener la ruta correcta al archivo CSS
 
@@ -18,7 +19,7 @@ const Navbar = () => {
   return (
     <header>
       <div className="logo">
-        <img className="icono" src="/icono1.png" alt="Logo" width="60px" />
+        <Image src="/icono1.png" alt="Logo"   className='img_logo' width={100} height={100} />
         <p style={{ fontSize: '20px' }}>ReadSoft Team</p>
       </div>
       <ul className="menu_horizontal">

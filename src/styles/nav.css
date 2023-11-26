@@ -24,6 +24,11 @@ header{
     position: fixed;
     justify-content: space-between;
     z-index: 3;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all .3s;
+    background-color: #0000007e;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .logo{
@@ -53,4 +58,14 @@ header{
 .menu_horizontal > li > a:hover{
     color: #9c9c9c;
     transition: all .3s;
+}
+
+.logo .img_logo{
+    width: 20%;
+    height: 100%;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
 }

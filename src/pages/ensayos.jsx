@@ -3,10 +3,8 @@ import Ensayos from '../components/Ensayos';
 
 const ensayos = () => {
     return (
-        <>
          <Ensayos />
 
-        </>
 
     );
 };

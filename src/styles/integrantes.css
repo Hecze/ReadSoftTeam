@@ -26,8 +26,9 @@ p, b{
 
 .encabezado {
     display: block;
+    padding-top: 50px;
     width: 100%;
-    height: 350px;
+    height: 550px;
     background-color: black;
     background-image: url("/fondo3.jpg");
     background-position: top 42% center;
